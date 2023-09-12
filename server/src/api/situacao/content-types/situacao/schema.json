@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "situacaos",
+  "info": {
+    "singularName": "situacao",
+    "pluralName": "situacaos",
+    "displayName": "situacao",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "descricao": {
+      "type": "string"
+    },
+    "nome": {
+      "type": "string"
+    }
+  }
+}

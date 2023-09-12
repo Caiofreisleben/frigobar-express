@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "venda_items",
+  "info": {
+    "singularName": "venda-item",
+    "pluralName": "venda-items",
+    "displayName": "vendaItem",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "quantidade": {
+      "type": "float"
+    },
+    "valor": {
+      "type": "float"
+    },
+    "venda": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::venda.venda"
+    }
+  }
+}

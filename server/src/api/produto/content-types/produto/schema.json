@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "produtos",
+  "info": {
+    "singularName": "produto",
+    "pluralName": "produtos",
+    "displayName": "produto",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "descricao": {
+      "type": "string"
+    },
+    "estoque": {
+      "type": "float"
+    },
+    "valor": {
+      "type": "float"
+    },
+    "situacao": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::situacao.situacao"
+    },
+    "thumbnail": {
+      "type": "string"
+    }
+  }
+}
